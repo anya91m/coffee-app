@@ -1,5 +1,8 @@
 {
-    "compilerOptions": {  
-      "jsx": "react-jsx",
-    }
-  }
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "allowJs": true
+    },
+    "include": ["src/*.tsx", "src/*.js"],
+    "exclude": ["node_modules", "dist"]
+}
